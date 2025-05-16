@@ -25,3 +25,4 @@ public class RemoveDuplicates {
             return left + 1;
         }
 }
+// optimal
