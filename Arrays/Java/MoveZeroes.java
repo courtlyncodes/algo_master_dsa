@@ -12,7 +12,7 @@ Input: nums = [0]
 Output: [0] */
 
 /* We sweep through the array exactly once with two pointers—one tracking where to write the next non-zero, the other scanning every element. Since each element is visited a constant number of times, the overall running time is **O(n)**, where *n* is the length of the array. */
-class Solution {
+class MoveZeroes {
     public void moveZeroes(int[] nums) {
         int left = 0;
         int right = left + 1;
