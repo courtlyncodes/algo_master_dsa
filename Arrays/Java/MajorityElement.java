@@ -16,6 +16,10 @@ Output: 2
 
 // Time Complexity: O(n) – We iterate through the array once to build a frequency map (O(n)),
 // then again through the map's entries (O(n) in worst case), so total time is linear.
+
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
     public int majorityElement(int[] nums) {
         int majority = nums.length / 2;
